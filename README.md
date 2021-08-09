@@ -7,6 +7,7 @@ Les maquettes desktop et mobile sont fournies
 Les icônes proviennent de Font Awesome
 Les couleurs : bleu #0065FC - bleu clair #DEEBFF - gris #F2F2F2
 La police : "Raleway"
+
 Cahier des charges
 
 L'integration doit se faire en HTML5 & CSS3, sans framework (bootstrap par exemple)
