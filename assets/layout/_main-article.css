@@ -14,7 +14,37 @@
   grid-row: 1;
 }
 
+.popular > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .popular {
   grid-column: 3;
   grid-row: 1;
+}
+
+.popular-card,
+.city-card {
+  display: flex;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  padding: 0.375rem;
+}
+
+.card-details {
+  background-color: white;
+}
+
+.city-card {
+  flex-direction: column;
+}
+
+.rating > .fas[data-active="true"] {
+  color: var(--clr-accent);
+}
+
+.rating > .fas[data-active="false"] {
+  color: var(--clr-grey);
 }

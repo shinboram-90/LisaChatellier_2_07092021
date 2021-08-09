@@ -64,63 +64,70 @@
         <input type="text" placeholder="Marseille, France" />
         <button class="fas fa-search">Rechercher</button>
 
-        <div class="filters">
+        <div class="filter-box">
           <h2>Filtres</h2>
-          <ul>
+          <ul class="filters">
             <li><i class="fas fa-money-bill-wave"></i> Économique</li>
             <li><i class="fas fa-child"></i> Familial</li>
             <li><i class="fas fa-heart"></i> Romantique</li>
             <li><i class="fas fa-dog"></i> Animaux autorisés</li>
           </ul>
-          <p>
-            <i class="fas fa-info"></i> Plus de 500 logements sont disponibles
-            dans cette ville
-          </p>
         </div>
+        <p>
+          <i class="fas fa-info"></i> Plus de 500 logements sont disponibles
+          dans cette ville
+        </p>
       </section>
 
       <article class="main-result">
         <!-- MOST POPULAR -->
         <section class="popular">
           <header>
-            <h2>Les plus populaires <i class="fas fa-chart-line"></i></h2>
+            <h2>Les plus populaires</h2>
+            <i class="fas fa-chart-line"></i>
           </header>
-          <div class="popular-cards">
+          <div class="popular-card">
             <img src="/images/hebergements/4_small/soleilmatin.jpg" alt="" />
-            <h3>Hôtel Le soleil du matin</h3>
-            <p>Nuit à partir de 128€</p>
-            <div class="rating">
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
+            <div class="card-details">
+              <h3>Hôtel Le soleil du matin</h3>
+              <p>Nuit à partir de <strong>128€</strong></p>
+              <div class="rating">
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+              </div>
             </div>
           </div>
 
-          <div class="card">
+          <div class="popular-card">
             <img src="/images/hebergements/4_small/hotes.jpg" alt="" />
-            <h3>Au coeur de l'eau Chambres d'hôtes</h3>
-            <p>Nuit à partir de 71€</p>
-            <div class="rating">
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="false"></i>
+            <div class="card-details">
+              <h3>Au coeur de l'eau Chambres d'hôtes</h3>
+              <p>Nuit à partir de<strong> 71€</strong></p>
+              <div class="rating">
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="false"></i>
+              </div>
             </div>
           </div>
 
-          <div class="card">
+          <div class="popular-card">
             <img src="/images/hebergements/4_small/bleublanc.jpg" alt="" />
-            <h3>Hôtel Tout bleu et Blanc</h3>
-            <p>Nuit à partir de 68€</p>
-            <div class="rating">
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="true"></i>
-              <i class="fas fa-star" data-active="false"></i>
+            <div class="card-details">
+              <h3>Hôtel Tout bleu et Blanc</h3>
+              <p>Nuit à partir de<strong> 68€</strong></p>
+              <div class="rating">
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="true"></i>
+                <i class="fas fa-star" data-active="false"></i>
+              </div>
             </div>
           </div>
         </section>
@@ -133,79 +140,91 @@
           <div class="city-grid">
             <div class="city-card city-card-1">
               <img src="/images/hebergements/4_small/cannebiere.jpg" alt="" />
-              <h3>Auberge la Cannebière</h3>
-              <p>Nuit à partir de 25€</p>
-              <div class="rating">
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="false"></i>
+              <div class="card-details">
+                <h3>Auberge la Cannebière</h3>
+                <p>Nuit à partir de<strong> 25€</strong></p>
+                <div class="rating">
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="false"></i>
+                </div>
               </div>
             </div>
 
             <div class="city-card city-card-2">
               <img src="/images/hebergements/4_small/port.jpg" alt="" />
-              <h3>Hôtel du port</h3>
-              <p>Nuit à partir de 52€</p>
-              <div class="rating">
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
+              <div class="card-details">
+                <h3>Hôtel du port</h3>
+                <p>Nuit à partir de<strong> 52€</strong></p>
+                <div class="rating">
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                </div>
               </div>
             </div>
 
             <div class="city-card city-card-3">
               <img src="/images/hebergements/4_small/mouettes.jpg" alt="" />
-              <h3>Hôtel Les mouettes</h3>
-              <p>Nuit à partir de 76€</p>
-              <div class="rating">
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="false"></i>
+              <div class="card-details">
+                <h3>Hôtel Les mouettes</h3>
+                <p>Nuit à partir de<strong> 76€</strong></p>
+                <div class="rating">
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="false"></i>
+                </div>
               </div>
             </div>
 
             <div class="city-card city-card-4">
               <img src="/images/hebergements/4_small/lamer.jpg" alt="" />
-              <h3>Hôtel de la mer</h3>
-              <p>Nuit à partir de 46€</p>
-              <div class="rating">
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="false"></i>
-                <i class="fas fa-star" data-active="false"></i>
+              <div class="card-details">
+                <h3>Hôtel de la mer</h3>
+                <p>Nuit à partir de<strong> 46€</strong></p>
+                <div class="rating">
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="false"></i>
+                  <i class="fas fa-star" data-active="false"></i>
+                </div>
               </div>
             </div>
 
             <div class="city-card city-card-5">
               <img src="/images/hebergements/4_small/lepanier.jpg" alt="" />
-              <h3>Auberge Le Panier</h3>
-              <p>Nuit à partir de 23€</p>
-              <div class="rating">
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="false"></i>
+              <div class="card-details">
+                <h3>Auberge Le Panier</h3>
+                <p>Nuit à partir de<strong> 23€</strong></p>
+                <div class="rating">
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="false"></i>
+                </div>
               </div>
             </div>
 
             <div class="city-card city-card-6">
               <img src="/images/hebergements/4_small/amina.jpg" alt="" />
-              <h3>Hôtel chez Amina</h3>
-              <p>Nuit à partir de 96€</p>
-              <div class="rating">
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
-                <i class="fas fa-star" data-active="true"></i>
+              <div class="card-details">
+                <h3>Hôtel chez Amina</h3>
+                <p>Nuit à partir de<strong> 96€</strong></p>
+                <div class="rating">
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                  <i class="fas fa-star" data-active="true"></i>
+                </div>
               </div>
             </div>
           </div>

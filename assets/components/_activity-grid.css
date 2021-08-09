@@ -1,3 +1,8 @@
+.popular,
+.marseille-city {
+  border-radius: 1.25rem;
+}
+
 .activity-grid {
   display: grid;
   column-gap: 2rem;
@@ -45,4 +50,8 @@
   object-fit: cover;
   height: 100%;
   width: 100%;
+}
+
+.activity-card {
+  border-radius: 1.25rem;
 }
