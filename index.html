@@ -23,17 +23,29 @@
   <body>
     <header>
       <nav>
-        <a href="#"><img src="/images/logo/reservia1.svg" alt="logo" /></a>
-        <div class="nav-link active-link">
-          <div class="underline-effect"></div>
-          <a href="#accommodation">Hébergements</a>
-        </div>
-        <div class="nav-link">
-          <div class="underline-effect"></div>
-          <a href="#activities">Activités</a>
-        </div>
-        <div class="nav-link">
-          <a href="#">S'inscrire</a>
+        <a class="logo" href="#"
+          ><img src="/images/logo/reservia1.svg" alt="logo Reservia"
+        /></a>
+
+        <div class="navbar-items">
+          <ul>
+            <li>
+              <a
+                class="nav-link active-link"
+                href="#accommodation"
+                data-active="true"
+                >Hébergements</a
+              >
+            </li>
+            <li>
+              <a class="nav-link" href="#activities" data-active="false"
+                >Activités</a
+              >
+            </li>
+            <li>
+              <a class="nav-subscription" href="#">S'inscrire</a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -206,46 +218,57 @@
         <header>
           <h2>Activités à Marseille</h2>
         </header>
-        <div class="activities-cards">
-          <div class="activity-card">
+        <div class="activities-grid">
+          <div class="activity-card activity-card-1">
             <img
+              class="activity-img"
               src="/images/activities/3_medium/reno.jpg"
               alt="vieux port de Marseille"
             />
             <h3>Vieux Port</h3>
           </div>
 
-          <div class="activity-card">
+          <div class="activity-card activity-card-2">
             <img
+              class="activity-img"
               src="images/activities/4_small/fort.jpg"
               alt="Fort de Pomègues"
             />
             <h3>Fort de Pomègues</h3>
           </div>
 
-          <div class="activity-card">
-            <img src="images/activities/4_small/ile.jpg" alt="Îles du Frioul" />
+          <div class="activity-card activity-card-3">
+            <img
+              class="activity-img"
+              src="images/activities/4_small/ile.jpg"
+              alt="Îles du Frioul"
+            />
             <h3>Îles du Frioul</h3>
           </div>
 
-          <div class="activity-card">
+          <div class="activity-card activity-card-4">
             <img
+              class="activity-img"
               src="/images/activities/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
               alt="Parc National des Calanques"
             />
             <h3>Parc National des Calanques</h3>
           </div>
 
-          <div class="activity-card">
+          <div class="activity-card activity-card-5">
             <img
+              class="activity-img"
               src="/images/activities/4_small/notredame.jpg"
               alt="Notre-Dame-de-la-Garde"
             />
             <h3>Notre-Dame-de-la-Garde</h3>
           </div>
 
-          <div class="activity-card">
-            <img src="/images/activities/4_small/parc1.jpg" />
+          <div class="activity-card activity-card-6">
+            <img
+              class="activity-img"
+              src="/images/activities/4_small/parc1.jpg"
+            />
             <h3>Parc Longchamp</h3>
           </div>
         </div>
