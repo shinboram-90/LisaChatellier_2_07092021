@@ -48,3 +48,7 @@
 .rating > .fas[data-active="false"] {
   color: var(--clr-grey);
 }
+
+.popular-card > img {
+  width: 100px;
+}
