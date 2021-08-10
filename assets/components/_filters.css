@@ -5,7 +5,7 @@
 }
 
 .filters > li {
-  border: 3px solid var(--clr-dark);
+  border: 3px solid var(--clr-grey);
   border-radius: 2rem;
 }
 
