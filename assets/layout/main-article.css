@@ -1,28 +1,36 @@
+.city-grid {
+  padding-bottom: 2rem;
+}
 .main-result {
   display: grid;
   column-gap: 2rem;
   grid-template-columns: repeat(3, 1fr);
+  margin: 0 2.5rem;
 }
 
 .marseille-city,
 .popular {
   background-color: var(--clr-grey);
+  border-radius: 1.25rem;
 }
 
 .marseille-city {
   grid-column: 1/3;
   grid-row: 1;
+  padding: 2rem;
 }
 
 .popular > header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* margin: 0 2rem 0 2rem; */
 }
 
 .popular {
   grid-column: 3;
   grid-row: 1;
+  padding: 2rem;
 }
 
 .popular-card,
@@ -56,6 +64,14 @@
   overflow: auto;
 }
 
-.popular-card {
-  margin: 2rem;
+.first-card {
+  margin-bottom: 2rem;
+}
+
+.last-card {
+  margin-top: 2rem;
+}
+
+.display-more {
+  font-weight: bold;
 }

@@ -1,11 +1,15 @@
-.popular,
-.marseille-city {
-  border-radius: 1.25rem;
+.activities {
+  margin: 3rem 2.5rem 3rem 2.5rem;
+}
+
+.activities h3 {
+  padding: 0 1rem;
 }
 
 .activity-grid {
   display: grid;
   column-gap: 2rem;
+  row-gap: 2rem;
   grid-template-columns: repeat(4, 1fr);
   /* grid-template-rows: auto 14rem 2rem 2rem 2rem 14rem; */
 }

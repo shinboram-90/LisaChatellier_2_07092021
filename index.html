@@ -67,10 +67,22 @@
         <div class="filter-box">
           <h2>Filtres</h2>
           <ul class="filters">
-            <li><i class="fas fa-money-bill-wave"></i> Économique</li>
-            <li><i class="fas fa-child"></i> Familial</li>
-            <li><i class="fas fa-heart"></i> Romantique</li>
-            <li><i class="fas fa-dog"></i> Animaux autorisés</li>
+            <li>
+              <i class="fas fa-money-bill-wave"></i
+              ><span class="filter-text"> Économique</span>
+            </li>
+            <li>
+              <i class="fas fa-child"></i
+              ><span class="filter-text"> Familial</span>
+            </li>
+            <li>
+              <i class="fas fa-heart"></i
+              ><span class="filter-text"> Romantique</span>
+            </li>
+            <li>
+              <i class="fas fa-dog"></i
+              ><span class="filter-text"> Animaux autorisés</span>
+            </li>
           </ul>
         </div>
         <p>
@@ -86,7 +98,7 @@
             <h2>Les plus populaires</h2>
             <i class="fas fa-chart-line"></i>
           </header>
-          <div class="popular-card">
+          <div class="popular-card first-card">
             <img src="images/hebergements/4_small/soleilmatin.jpg" alt="" />
             <div class="card-details">
               <h3>Hôtel Le soleil du matin</h3>
@@ -116,7 +128,7 @@
             </div>
           </div>
 
-          <div class="popular-card">
+          <div class="popular-card last-card">
             <img src="images/hebergements/4_small/bleublanc.jpg" alt="" />
             <div class="card-details">
               <h3>Hôtel Tout bleu et Blanc</h3>
@@ -228,7 +240,7 @@
               </div>
             </div>
           </div>
-          <a href="#">Afficher plus</a>
+          <a class="display-more" href="#">Afficher plus</a>
         </section>
       </article>
 
@@ -297,22 +309,24 @@
     <!-- FOOTER -->
     <footer>
       <div class="footer-box">
-        <h3>A propos</h3>
-        <a href="#" class="a-propos">Fonctionnement du site</a>
-        <a href="#" class="a-propos">Conditions générales de vente</a>
-        <a href="#" class="a-propos">Données et confidentialité</a>
-      </div>
+        <div class="footer-content">
+          <h3>A propos</h3>
+          <a href="#" class="a-propos">Fonctionnement du site</a>
+          <a href="#" class="a-propos">Conditions générales de vente</a>
+          <a href="#" class="a-propos">Données et confidentialité</a>
+        </div>
 
-      <div class="footer-box">
-        <h3>Nos hébergement</h3>
-        <a href="#">Charte qualité</a>
-        <a href="#">Soumettre votre hôtel</a>
-      </div>
+        <div class="footer-content">
+          <h3>Nos hébergement</h3>
+          <a href="#">Charte qualité</a>
+          <a href="#">Soumettre votre hôtel</a>
+        </div>
 
-      <div class="footer-box">
-        <h3>Assitance</h3>
-        <a href="#">Centre d'aide</a>
-        <a href="#">Nous contacter</a>
+        <div class="footer-content">
+          <h3>Assitance</h3>
+          <a href="#">Centre d'aide</a>
+          <a href="#">Nous contacter</a>
+        </div>
       </div>
     </footer>
   </body>

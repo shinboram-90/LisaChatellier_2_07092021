@@ -1,3 +1,7 @@
+.search {
+  margin: 2.5rem;
+}
+
 .search-bar {
   display: inline-flex;
   max-width: 100%;
