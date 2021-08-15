@@ -1,43 +1,70 @@
 .city-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  row-gap: 2rem;
-  column-gap: 2rem;
-}
-
-.city-card-1 {
-  grid-column: 1;
-  grid-row: 1;
-}
-
-.city-card-2 {
-  grid-column: 2;
-  grid-row: 1;
-}
-
-.city-card-3 {
-  grid-column: 3;
-  grid-row: 1;
-}
-
-.city-card-4 {
-  grid-column: 1;
-  grid-row: 2;
-}
-
-.city-card-5 {
-  grid-column: 2;
-  grid-row: 2;
-}
-
-.city-card-6 {
-  grid-column: 3;
-  grid-row: 2;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 0.5rem;
 }
 
 .city-card > img {
-  object-fit: cover;
-  height: 7rem;
+  height: 6.5rem;
   width: 100%;
+  object-fit: cover;
   border-radius: 1rem 1rem 0 0;
+}
+
+.city-card {
+  flex-direction: column;
+}
+
+@media screen and (max-width: 640px) {
+  .city-card {
+    margin-bottom: 1.5rem;
+  }
+
+  .marseille-city {
+    margin: 0 1.5rem;
+  }
+}
+
+@media screen and (min-width: 641px) {
+  .city-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 2rem;
+    column-gap: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .city-card-1 {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .city-card-2 {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .city-card-3 {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .city-card-4 {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .city-card-5 {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  .city-card-6 {
+    grid-column: 3;
+    grid-row: 2;
+  }
+
+  .marseille-city {
+    margin: 0 2.5rem;
+  }
 }
