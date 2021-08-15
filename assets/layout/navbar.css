@@ -5,25 +5,34 @@ nav {
   margin: 1.5rem 1.5rem 0 1.5rem;
 }
 
+/* .navbar-items {
+  display: inline;
+} */
+
+/* .nav-link {
+  display: inline-block;
+  flex-direction: row;
+} */
+
 @media screen and (min-width: 641px) {
   nav {
     margin: 2.5rem 2.5rem 0 2.5rem;
   }
-}
 
-.navbar-items > ul {
-  display: grid;
-  grid-template-columns: 1fr repeat(2, fit-content(100px));
-  grid-gap: 50px;
+  .navbar-items ul {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, fit-content(100px));
+    grid-gap: 50px;
+  }
+
+  .navbar-items .active-link {
+    border-top: solid 3px var(--clr-accent);
+  }
 }
 
 .nav-subscription {
   color: var(--clr-accent);
   font-weight: bold;
-}
-
-.navbar-items .active-link {
-  border-top: solid 3px var(--clr-accent);
 }
 
 .nav-link[data-active="true"] {

@@ -9,6 +9,12 @@
   align-items: center;
 }
 
+.popular-card > img {
+  width: 33%;
+  border-radius: 1rem 0 0 1rem;
+  overflow: auto;
+}
+
 @media screen and (max-width: 640px) {
   .popular-card-1 {
     margin-bottom: 2rem;

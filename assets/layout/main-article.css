@@ -43,13 +43,3 @@
 .rating > .fas[data-active="false"] {
   color: var(--clr-grey);
 }
-
-.popular-card > img {
-  width: 33%;
-  border-radius: 1rem 0 0 1rem;
-  overflow: auto;
-}
-
-.display-more {
-  font-weight: bold;
-}
