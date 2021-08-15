@@ -23,6 +23,7 @@
   width: 3rem;
   align-items: center;
   justify-content: center;
+  margin: -3px;
 }
 
 .filter-text {
