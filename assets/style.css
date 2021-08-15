@@ -1,6 +1,5 @@
-@import url(base/fonts.css);
+@import url(base/general.css);
 @import url(base/color.css);
-@import url(components/buttons.css);
 @import url(components/filters.css);
 @import url(layout/navbar.css);
 @import url(layout/footer.css);

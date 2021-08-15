@@ -28,13 +28,18 @@
 }
 
 .search-bar input {
-  border-radius: 0;
-  border-color: var(--clr-grey);
+  border-top: 1px solid var(--clr-grey);
+  border-bottom: 1px solid var(--clr-grey);
+  border-left: 0;
+  border-right: 0;
+  padding-left: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
-/* .fa-search {
-  color: transparent;
-} */
+.search-bar input::placeholder {
+  color: black;
+}
 
 @media screen and (min-width: 641px) {
   .magnifying-glass {
