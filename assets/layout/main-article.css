@@ -1,16 +1,6 @@
-.city-grid {
-  padding-bottom: 2rem;
-}
 .main-result {
   display: flex;
   flex-direction: column;
-  margin: 0 1.5rem;
-}
-
-@media screen and (min-width: 641px) {
-  .main-result {
-    margin: 0 2.5rem;
-  }
 }
 
 @media screen and (min-width: 1008px) {
@@ -33,13 +23,6 @@
   }
 }
 
-.popular > header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  /* margin: 0 2rem 0 2rem; */
-}
-
 .popular-card,
 .city-card {
   display: flex;
@@ -51,10 +34,6 @@
 
 .card-details {
   background-color: white;
-}
-
-.city-card {
-  flex-direction: column;
 }
 
 .rating > .fas[data-active="true"] {
@@ -69,14 +48,6 @@
   width: 33%;
   border-radius: 1rem 0 0 1rem;
   overflow: auto;
-}
-
-.popular-card-1 {
-  margin-bottom: 2rem;
-}
-
-.popular-card-3 {
-  margin-top: 2rem;
 }
 
 .display-more {

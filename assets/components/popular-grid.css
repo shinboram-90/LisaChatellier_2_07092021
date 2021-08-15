@@ -1,4 +1,29 @@
+.popular {
+  background-color: var(--clr-grey);
+  padding: 0 1.5rem;
+}
+
+.popular > header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .popular-card-1 {
+    margin-bottom: 2rem;
+  }
+
+  .popular-card-3 {
+    margin-top: 2rem;
+  }
+}
+
 @media screen and (min-width: 641px) {
+  .popular {
+    padding: 0 2.5rem 2.5rem 2.5rem;
+  }
+
   .popular-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -27,10 +52,17 @@
     grid-column: 3;
     grid-row: 1;
     padding: 2rem;
+    margin-right: 2.5rem;
   }
 
   .popular-grid {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .popular-card {
+    margin-bottom: 1.5rem;
   }
 }
