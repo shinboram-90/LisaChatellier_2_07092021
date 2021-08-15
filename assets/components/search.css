@@ -35,3 +35,15 @@
 /* .fa-search {
   color: transparent;
 } */
+
+@media screen and (min-width: 641px) {
+  .magnifying-glass {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .secret-search {
+    display: none;
+  }
+}

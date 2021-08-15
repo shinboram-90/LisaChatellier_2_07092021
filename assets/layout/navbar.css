@@ -7,15 +7,16 @@ nav {
 
 .navbar-items > ul {
   display: grid;
-  grid-template-columns: 1fr repeat(3, fit-content(100px));
-  grid-gap: 20px;
+  grid-template-columns: 1fr repeat(2, fit-content(100px));
+  grid-gap: 50px;
 }
 
 .nav-subscription {
   color: var(--clr-accent);
+  font-weight: bold;
 }
 
-.navbar-items > .active-link {
+.navbar-items .active-link {
   border-top: solid 3px var(--clr-accent);
 }
 
@@ -23,5 +24,5 @@ nav {
   color: var(--clr-accent);
 }
 
-header {
+.nav-header {
 }
