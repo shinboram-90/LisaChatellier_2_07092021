@@ -1,5 +1,11 @@
 .activities {
-  margin: 3rem 2.5rem 3rem 2.5rem;
+  margin: 3rem 1.5rem 3rem 1.5rem;
+}
+
+@media screen and (min-width: 641px) {
+  .activities {
+    margin: 3rem 2.5rem 3rem 2.5rem;
+  }
 }
 
 .activities h3 {

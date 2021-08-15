@@ -3,7 +3,7 @@ footer {
 }
 
 .footer-box {
-  padding: 0 2.5rem 2.5rem 2.5rem;
+  padding: 0 1.5rem 1.5rem 1.5rem;
 }
 
 .footer-content > h3 {
@@ -16,7 +16,6 @@ footer {
 }
 
 .footer-content > a {
-  /* line-height: 30px; */
   padding-bottom: 1rem;
 }
 
@@ -24,14 +23,17 @@ footer {
   padding-bottom: 0;
 }
 
+/* A PARTIR DE 641 PIXELS */
 @media screen and (min-width: 641px) {
   .footer-box {
+    padding: 0 2.5rem 2.5rem 2.5rem;
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
 }
 
+/* A PARTIR DE 1008 PIXELS */
 @media screen and (min-width: 1008px) {
   .footer-box {
     width: 80%;

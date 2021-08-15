@@ -5,5 +5,6 @@
 @import url(layout/footer.css);
 @import url(components/city-grid.css);
 @import url(components/activity-grid.css);
+@import url(components/popular-grid.css);
 @import url(layout/main-article.css);
 @import url(components/search.css);

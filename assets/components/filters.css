@@ -1,17 +1,25 @@
-.filter-box {
-  margin-top: 1rem;
+/* .filter-box {
+  margin-top: 1.5rem;
+} */
+
+.filter-box > h3 {
+  margin: 0 2rem 1rem 0;
 }
 
 .filter-box,
 .filters {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .filters > li {
   border: 3px solid var(--clr-grey);
   border-radius: 2rem;
-  margin-left: 2rem;
+  margin-right: 2rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
 }
 
 .filters .fas {
