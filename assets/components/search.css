@@ -50,6 +50,7 @@ input[type="text"] {
 @media screen and (min-width: 641px) {
   .search {
     margin: 2.5rem;
+    margin-top: 0;
   }
   .magnifying-glass {
     display: none;
