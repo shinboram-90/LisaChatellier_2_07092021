@@ -24,6 +24,24 @@ ul {
   list-style-type: none;
 }
 
-h1 {
+h1,
+h2,
+h3,
+p {
   margin: 0;
+}
+
+@media screen and (min-width: 641px) {
+  h2 {
+    margin: 0.5rem 0 1.5rem 0;
+  }
+
+  h1,
+  h2 {
+    font-size: 1.4em;
+  }
+
+  h3 {
+    font-size: 1em;
+  }
 }

@@ -9,18 +9,20 @@
 
 .search-bar > span {
   background-color: var(--clr-grey);
-  padding: 1rem 1.25rem;
+  padding: 1rem 1.2rem;
   border-radius: 1rem 0 0 1rem;
   text-align: center;
 }
 
 .search-bar button {
+  position: absolute;
+  left: 18rem;
   background-color: var(--clr-accent);
   color: white;
   font-weight: bold;
   border: none;
   border-radius: 0 1rem 1rem 0;
-  padding: 0 1.5rem;
+  padding: 1rem;
   font-family: "Raleway", "Sans serif";
   font-size: 1rem;
   cursor: pointer;
@@ -28,14 +30,21 @@
 }
 
 .search-bar input {
+  position: relative;
   border-top: 1px solid var(--clr-grey);
   border-bottom: 1px solid var(--clr-grey);
   border-left: none;
   border-right: none;
   padding-left: 1rem;
-  font-weight: bold;
-  font-size: 1rem;
+  font-weight: 600;
+  font-size: 1.1em;
   margin: 0;
+}
+
+.fa-map-marker-alt,
+.secret-search {
+  font-size: 1.1em;
+  font-weight: 600;
 }
 
 input[type="text"] {
@@ -60,6 +69,12 @@ input[type="text"] {
 @media screen and (max-width: 640px) {
   .secret-search {
     display: none;
+  }
+  .search-bar button {
+    border-radius: 1rem;
+  }
+  .fa-search {
+    text-align: center;
   }
 }
 
