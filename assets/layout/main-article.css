@@ -39,6 +39,9 @@
 
 .card-details {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .rating > .fas[data-active="true"] {

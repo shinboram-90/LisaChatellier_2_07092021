@@ -4,8 +4,13 @@
   padding-bottom: 0.5rem;
 }
 
+.city-grid .card-details {
+  padding: 0.6rem 0.9rem;
+  /* line-height: 1.6rem; */
+}
+
 .city-card > img {
-  height: 6.8rem;
+  height: 7.2rem;
   width: 100%;
   object-fit: cover;
   border-radius: 1rem 1rem 0 0;
@@ -22,6 +27,11 @@
 
   .marseille-city {
     margin: 0 1.5rem;
+  }
+
+  .marseille-city h2 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 }
 

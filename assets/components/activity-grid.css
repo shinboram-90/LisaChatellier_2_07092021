@@ -33,6 +33,7 @@
     column-gap: 2rem;
     row-gap: 2rem;
     grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 14rem;
   }
 
   .activity-card-1 {
@@ -67,7 +68,7 @@
 }
 
 .activities h3 {
-  padding: 0 1rem;
+  padding: 1.1rem 1rem 1rem 1rem;
 }
 
 .activity-card {
@@ -81,5 +82,9 @@
 @media screen and (max-width: 640px) {
   .activity-card {
     margin-bottom: 1.5rem;
+  }
+
+  .activities h2 {
+    padding-bottom: 2rem;
   }
 }

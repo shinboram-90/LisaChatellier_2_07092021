@@ -8,11 +8,30 @@
   justify-content: space-between;
   align-items: center;
 }
+/* 
+.popular-card {
+  height: 9rem;
+} */
 
 .popular-card > img {
-  width: 33%;
+  /* height: 9rem; */
+  width: 8rem;
+
   border-radius: 1rem 0 0 1rem;
   overflow: auto;
+  object-fit: cover;
+}
+
+.popular-grid .card-details {
+  padding: 1rem 1.3rem;
+}
+
+.popular-grid .rating {
+  padding-top: 1.5rem;
+}
+
+.popular-grid p {
+  padding-top: 0.5rem;
 }
 
 .fa-chart-line {
@@ -26,6 +45,15 @@
 
   .popular-card-3 {
     margin-top: 2rem;
+  }
+
+  .popular {
+    padding-bottom: 2rem;
+  }
+
+  .popular h2 {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
   }
 }
 
