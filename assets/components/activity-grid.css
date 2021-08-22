@@ -3,11 +3,19 @@
 }
 
 .activity-img {
-  height: 8rem;
+  height: 100%;
   width: 100%;
   object-fit: cover;
   /* object-position: 50% 20%; */
 }
+
+.activity-img-container {
+  height: 9rem;
+}
+
+/* .activity-card {
+  height: 140px;
+} */
 
 @media screen and (min-width: 641px) {
   .activities {
@@ -66,6 +74,18 @@
     grid-column: 4;
     grid-row: 2;
   }
+
+  .activity-img-container {
+    flex-grow: 1;
+  }
+
+  /* .activities h3 {
+    height: 10%;
+  } */
+
+  /* .activity-card {
+    height: 100%;
+  } */
 }
 
 .activities h3 {

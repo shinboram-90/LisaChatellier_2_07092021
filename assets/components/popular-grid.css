@@ -46,6 +46,11 @@
 } */
 
 @media screen and (max-width: 640px) {
+  .popular > header {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
+
   .popular-card {
     margin-bottom: 1.5rem;
   }
@@ -56,11 +61,6 @@
   }
 
   .popular {
-    padding-bottom: 2rem;
-  }
-
-  .popular h2 {
-    padding-top: 3rem;
     padding-bottom: 2rem;
   }
 }
