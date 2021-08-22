@@ -23,3 +23,6 @@ Le site devra être compatible avec les dernières versions de Chrome et Firefox
 Le HTML et le CSS doivent être séparés et le dossier doit être organisé
 Le code doit être versionné avec git et doit avoir un repo distant sur Github ou Gitlab
 Le site doit être responsive
+
+<img src="images/maquette/computer.png"/>
+<img src="images/maquette/mobile.png"/>
