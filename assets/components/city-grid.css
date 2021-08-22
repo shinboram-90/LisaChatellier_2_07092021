@@ -13,7 +13,7 @@
 .city-card {
   display: flex;
   border-radius: 1.25rem;
-  box-shadow: 0 0 16px #0000002e;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   padding: 0.3rem;
   background-color: white;
 }
@@ -31,6 +31,10 @@
 
 @media screen and (max-width: 640px) {
   .city-card {
+    margin-bottom: 1rem;
+  }
+
+  .city-card-6 {
     margin-bottom: 1.5rem;
   }
 
@@ -108,6 +112,7 @@
 
 .display-more {
   font-weight: bold;
+  font-size: 1.1em;
 }
 
 .card-details > p {

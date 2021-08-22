@@ -50,12 +50,9 @@
     margin-bottom: 1.5rem;
   }
 
-  .popular-card-1 {
-    margin-bottom: 2rem;
-  }
-
-  .popular-card-3 {
-    margin-top: 2rem;
+  .popular-card-1,
+  .popular-card-2 {
+    margin-bottom: 1rem;
   }
 
   .popular {

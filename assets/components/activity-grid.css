@@ -6,6 +6,7 @@
   height: 8rem;
   width: 100%;
   object-fit: cover;
+  /* object-position: 50% 20%; */
 }
 
 @media screen and (min-width: 641px) {
@@ -75,7 +76,7 @@
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 20px #0000002e;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
   border-radius: 1.25rem;
 }
 
