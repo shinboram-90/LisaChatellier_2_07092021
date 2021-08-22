@@ -27,7 +27,7 @@
   }
 }
 
-@media screen and (min-width: 1008px) {
+@media screen and (min-width: 1200px) {
   .activity-grid {
     display: grid;
     column-gap: 2rem;

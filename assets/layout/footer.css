@@ -34,8 +34,8 @@ footer {
   }
 }
 
-/* A PARTIR DE 1008 PIXELS */
-@media screen and (min-width: 1008px) {
+/* A PARTIR DE 1200 PIXELS */
+@media screen and (min-width: 1200px) {
   .footer-box {
     width: 80%;
   }
