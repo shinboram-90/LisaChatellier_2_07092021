@@ -20,6 +20,12 @@
   margin-bottom: 1rem;
 }
 
+.filters > li:hover {
+  background-color: var(--clr-light);
+  border-color: var(--clr-light);
+  color: var(--clr-accent);
+}
+
 .filters .fas {
   display: inline-flex;
   background-color: var(--clr-light);

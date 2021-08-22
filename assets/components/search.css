@@ -79,7 +79,10 @@ input[type="text"] {
   .search-bar input {
     flex-grow: 1;
     margin-right: -1em;
-    z-index: -1;
+  }
+
+  .search-bar button {
+    z-index: 2;
   }
 
   .search-bar input {
