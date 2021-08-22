@@ -48,3 +48,10 @@
 .rating > .fas[data-active="false"] {
   color: var(--clr-grey);
 }
+
+.popular-card:hover,
+.city-card:hover,
+.activity-card:hover {
+  transform: scale(1.03);
+  transition: all 0.3s ease-in-out;
+}
