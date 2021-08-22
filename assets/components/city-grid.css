@@ -9,6 +9,15 @@
   /* line-height: 1.6rem; */
 }
 
+.popular-card,
+.city-card {
+  display: flex;
+  border-radius: 1.25rem;
+  box-shadow: 0 0 16px #0000002e;
+  padding: 0.3rem;
+  background-color: white;
+}
+
 .city-card > img {
   height: 7.2rem;
   width: 100%;
@@ -79,7 +88,7 @@
   }
 }
 
-@media screen and (min-width: 1008px) {
+@media screen and (min-width: 1200px) {
   .marseille-city {
     grid-column: 1/3;
     grid-row: 1;
@@ -99,4 +108,8 @@
 
 .display-more {
   font-weight: bold;
+}
+
+.card-details > p {
+  line-height: 1.5;
 }
