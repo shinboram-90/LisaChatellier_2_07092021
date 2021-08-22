@@ -1,5 +1,6 @@
 # oc-project-2
-Transformez une maquette en site web
+
+<h1>Transformez une maquette en site web</h1>
 
 Éléments fournis par l'entreprise virtuelle
 

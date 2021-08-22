@@ -6,16 +6,23 @@
   height: 100%;
   width: 100%;
   object-fit: cover;
-  /* object-position: 50% 20%; */
 }
 
 .activity-img-container {
   height: 9rem;
 }
 
-/* .activity-card {
-  height: 140px;
-} */
+.activities h3 {
+  padding: 1.1rem 1rem 1rem 1rem;
+}
+
+.activity-card {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
+  border-radius: 1.25rem;
+}
 
 @media screen and (min-width: 641px) {
   .activities {
@@ -78,26 +85,6 @@
   .activity-img-container {
     flex-grow: 1;
   }
-
-  /* .activities h3 {
-    height: 10%;
-  } */
-
-  /* .activity-card {
-    height: 100%;
-  } */
-}
-
-.activities h3 {
-  padding: 1.1rem 1rem 1rem 1rem;
-}
-
-.activity-card {
-  overflow: hidden;
-  display: flex;
-  flex-direction: column;
-  box-shadow: rgba(0, 0, 0, 0.1) -4px 9px 25px -6px;
-  border-radius: 1.25rem;
 }
 
 @media screen and (max-width: 640px) {
