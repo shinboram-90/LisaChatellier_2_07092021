@@ -42,6 +42,12 @@ h3 {
 
 @media screen and (min-width: 641px) {
   h2 {
+    margin: 2.5rem 0 1.5rem 0;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h2 {
     margin: 0.5rem 0 1.5rem 0;
   }
 }

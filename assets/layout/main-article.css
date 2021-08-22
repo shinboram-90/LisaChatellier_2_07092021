@@ -38,6 +38,7 @@
   flex-direction: column;
   justify-content: space-between;
   border-radius: 1.25rem;
+  flex-grow: 1;
 }
 
 .rating > .fas[data-active="true"] {
