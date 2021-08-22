@@ -3,6 +3,11 @@
   flex-direction: column;
 }
 
+.fa-star {
+  font-size: 0.8em;
+  letter-spacing: -3px;
+}
+
 @media screen and (min-width: 1008px) {
   .marseille-city,
   .popular {
@@ -28,12 +33,15 @@
   display: flex;
   border-radius: 1.25rem;
   box-shadow: 0 0 16px #0000002e;
-  padding: 0.375rem;
+  padding: 0.3rem;
   background-color: white;
 }
 
 .card-details {
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .rating > .fas[data-active="true"] {
