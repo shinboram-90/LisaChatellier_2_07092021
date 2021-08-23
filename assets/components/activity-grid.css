@@ -8,6 +8,14 @@
   object-fit: cover;
 }
 
+.position {
+  object-position: 50% 10%;
+}
+
+.position-diff {
+  object-position: 50% 40%;
+}
+
 .activity-img-container {
   height: 9rem;
 }
