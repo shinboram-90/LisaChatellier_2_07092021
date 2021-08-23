@@ -54,16 +54,16 @@
           </p>
         </header>
 
-        <div class="search-bar">
+        <form class="search-bar">
           <span><i class="fas fa-map-marker-alt"></i></span>
-          <input type="text" placeholder="Marseille, France" />
-          <button>
+          <label for="city"></label>
+          <input class = "search-input" type="text" placeholder="Marseille, France" />
+          <input class="secret-search" type="submit" class="button" value="Rechercher">
             <span class="magnifying-glass">
               <i class="fas fa-search"></i>
             </span>
-            <span class="secret-search">Rechercher</span>
-          </button>
-        </div>
+          </input>
+        </form>
 
         <div class="filter-box">
           <p>Filtres</p>
