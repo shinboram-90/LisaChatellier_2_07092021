@@ -23,6 +23,7 @@
 }
 
 .secret-search {
+  -webkit-appearance: none;
   left: 18rem;
   background-color: var(--clr-accent);
   color: white;
