@@ -43,14 +43,22 @@
   line-height: 2;
 }
 
+@media screen and (min-width: 640px) and (max-width: 921px) {
+  .popular-card {
+    margin-bottom: 2.5rem;
+  }
+
+  .popular {
+    padding: 0 2.5rem;
+  }
+}
+
 @media screen and (max-width: 641px) {
   .popular > header {
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
-}
 
-@media screen and (max-width: 641px) {
   .popular-card {
     margin-bottom: 1.5rem;
   }
