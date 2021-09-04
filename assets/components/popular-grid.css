@@ -43,12 +43,14 @@
   line-height: 2;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 641px) {
   .popular > header {
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
+}
 
+@media screen and (max-width: 641px) {
   .popular-card {
     margin-bottom: 1.5rem;
   }
@@ -63,14 +65,16 @@
   }
 }
 
-@media screen and (min-width: 641px) {
+@media screen and (min-width: 921px) {
   .popular {
     padding: 0 2.5rem 2.5rem 2.5rem;
   }
 
   .popular-grid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    /* flex-wrap: wrap; */
+
+    grid-template-columns: repeat(3, 1fr);
     row-gap: 2rem;
     column-gap: 2rem;
   }
