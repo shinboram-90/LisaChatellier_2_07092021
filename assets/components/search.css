@@ -13,13 +13,27 @@
   border-radius: 1rem 0 0 1rem;
 }
 
+.input-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
 .magnifying-glass {
-  z-index: 2;
+  -webkit-appearance: none;
+  border: none;
+  height: 100%;
+  width: 100%;
   border-radius: 1rem;
   background-color: var(--clr-accent);
-  color: white;
-  padding: 1rem;
+  padding: 1rem 1.45rem;
   cursor: pointer;
+}
+
+.input-icon > .fa-search {
+  position: absolute;
+  color: white;
 }
 
 .secret-search {
@@ -53,7 +67,8 @@
   font-weight: 600;
 }
 
-.search-input[type="text"] {
+.search-input[type="text"],
+.input-icon {
   -webkit-appearance: none;
   border-radius: 0;
 }
@@ -67,7 +82,7 @@
     margin: 2.5rem;
     margin-top: 0;
   }
-  .magnifying-glass {
+  .input-icon {
     display: none;
   }
 }
