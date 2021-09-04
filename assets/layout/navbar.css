@@ -71,6 +71,7 @@
 
   .nav-link {
     border-top: solid 3px transparent;
+    padding: 2.5rem 2rem;
   }
 
   .nav-1:hover,
@@ -79,10 +80,6 @@
     color: var(--clr-accent);
 
     transition: all 0.3s ease-out;
-  }
-
-  .nav-link {
-    padding: 2.5rem 2rem;
   }
 
   .logo {
@@ -98,7 +95,3 @@
   color: var(--clr-accent);
   font-weight: bold;
 }
-
-/* .active[data-active="true"] {
-  color: var(--clr-accent);
-} */

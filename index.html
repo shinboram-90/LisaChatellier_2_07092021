@@ -26,7 +26,7 @@
         <ul class="navbar-items">
           <li class="logo nav-link">
             <a href="#"
-              ><img src="images/logo/reservia1.svg" alt="logo Reservia"
+              ><img src="images/logo/reservia1.svg" alt="blue logo Reservia"
             /></a>
           </li>
           <li class="nav-1 nav-link active-link">
@@ -54,21 +54,24 @@
           </p>
         </header>
 
-        <form class="search-bar">
+        <form class="search-bar" action="#" method="post">
           <span class="location"><i class="fas fa-map-marker-alt"></i></span>
           <input
             class="search-input"
             type="text"
             placeholder="Marseille, France"
+            required
           />
           <input
             class="secret-search button"
             type="submit"
             value="Rechercher"
           />
-          <span class="magnifying-glass">
+
+          <div class="input-icon">
+            <input type="submit" class="magnifying-glass" value="" />
             <i class="fas fa-search"></i>
-          </span>
+          </div>
         </form>
 
         <div class="filter-box">
