@@ -33,13 +33,13 @@
 }
 
 .card-details {
+  height: 100%;
   background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   border-radius: 1.25rem;
   flex-grow: 1;
-  height: fit-content;
 }
 
 .rating > .fas[data-active="true"] {

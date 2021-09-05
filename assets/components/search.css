@@ -75,6 +75,8 @@
 
 .search-input::placeholder {
   color: black;
+  font-family: "Raleway", "Sans serif";
+  font-weight: bold;
 }
 
 @media screen and (min-width: 641px) {

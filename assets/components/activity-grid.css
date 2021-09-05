@@ -17,7 +17,7 @@
 }
 
 .activity-img-container {
-  height: 9rem;
+  height: 11rem;
 }
 
 .activities h3 {
@@ -60,6 +60,8 @@
     grid-template-areas:
       "activity-card-1 activity-card-2 activity-card-4 activity-card-5"
       "activity-card-1 activity-card-2 activity-card-4 activity-card-5"
+      "activity-card-1 activity-card-2 activity-card-4 activity-card-5"
+      "activity-card-1 activity-card-2 activity-card-4 activity-card-6"
       "activity-card-1 activity-card-2 activity-card-4 activity-card-6"
       "activity-card-1 activity-card-3 activity-card-4 activity-card-6"
       "activity-card-1 activity-card-3 activity-card-4 activity-card-6";
